@@ -1,0 +1,16 @@
+h1{
+    font-family: "Comic Sans MS", Cursive, sans-serif, !important ;
+}
+.site-heading-upper{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*if update don't work...
+1. Make sure you linked styless to page
+2. Make sure you linked them correctly and below original styles
+3. Make sure you spelled everything correctly, including caps
+3b. Try !important (before smeicolon)
+4. try refreshing page
+5. Try refreshing without cache (ctrl+F5)
+6. Try a different browser
+7. Come to class and ask a TA
+8. Be satisfied with less style
