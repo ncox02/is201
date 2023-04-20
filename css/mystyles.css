@@ -1,8 +1,143 @@
-h1{
-    font-family: "Comic Sans MS", Cursive, sans-serif, !important ;
-}
-.site-heading-upper{
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    background-image: url("../assets/img/bg-scratch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;/*font color*/
+    height: 100%;
+    overflow-y: scroll;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: rgb(54, 26, 0); /* set the background color to brown */
+    opacity: 90%;
+    position: relative; /* make the navbar stay in place */
+    top: 140px; /* set the distance from the top of the page */
+    width: 100%; /* set the width to 100% of the page */
+    padding: 20px 0;
+}
+  
+.navbar a{
+    color: rgba(216, 216, 216, 0.89); /* set the color of the links to white */
+    display: inline-block; /* display the links in a line */
+    padding: 10px 20px; /* add padding to the links */
+    text-decoration: none; /* remove the underline from the links */
+    font-family: Arial, sans-serif; /* change the font family of the links */
+    font-weight: bold; /* make the text bold */
+    text-transform: uppercase; /* make the text uppercase */
+}
+
+.common{
+    text-align: center;
+    color: black;
+}
+
+.nav{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #e6a756;
+}
+
+header{
+    background-color: whitesmoke; /* set the background color to brown */
+    opacity: 80%;
+    color: rgb(54, 26, 0); /* set the text color to white */
+    padding: 20px; /* add padding to the header */
+}
+  
+h1{
+    margin: 0; /* remove any margin from the h1 element */
+    font-size: 36px; /* set the font size to 36 pixels */
+    font-weight: bold; /* set the font weight to normal */
+    text-align: center; /* center the text */
+}
+  
+  /* CSS code to style the lower section */
+.lower {
+    margin: 0;
+    background-color: whitesmoke; /* set the background color to light gray */
+    opacity: 80%;
+    color: rgb(54, 26, 0);
+    font-weight: bold;
+    padding: 20px; /* add padding to the lower section */
+}
+  
+p{
+    margin: 0; /* remove any margin from the p element */
+    text-align: center; /* center the text */
+}
+
+.bubble{
+    background-color:#e6a756;
+    opacity: 99%;
+
+}
+
+.content{
+    margin: 0;
+    padding: 20px;
+    background-color: #ffac3e;;
+    opacity: 95%;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    color: black;
+    position: relative;
+    top: 280px;
+    left: 11%;
+    width: 25%;
+    
+    text-align: center;
+    overflow-y: auto;
+}
+
+.title{
+    margin: 0px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    z-index: 1;
+}
+
+ol{
+    margin: 0 auto;
+    list-style: disc;
+    padding: 20px;
+}
+
+li{
+    color: rgb(53, 53, 53);
+}
+
+.dino{
+    position: relative;
+    top: -30px;
+    left: 450px;
+    z-index: -1;
+    border-radius: 30px;
+}
+
+iframe{
+    position: relative;
+    left: 20%;
+    border-radius: 10px;
+}
+
+b{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 /*if update don't work...
 1. Make sure you linked styless to page
